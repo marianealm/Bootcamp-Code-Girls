@@ -1,7 +1,8 @@
 # Bootcamp-Code-Girls-Desafio-1
 ![texto](images/fluxo-ec2-ebs.png)
 # Etapas do Fluxo EC2 ↔ EBS
-- Etapa 1: Criação do Volume EBS
+- Etapa 1: Criação do Volume EBS:
+  
   O volume é criado na mesma Availability Zone da instância EC2
   Pode ser do tipo gp3, io1, st1, etc., dependendo da performance desejada
 - Etapa 2: Anexar Volume à EC2
