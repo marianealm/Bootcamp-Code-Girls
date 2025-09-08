@@ -10,14 +10,18 @@
   O volume é anexado à instância EC2;
   EC2 reconhece o volume como um disco adicional
 - Etapa 3: Montagem e Formatação:
+  
   O volume é formatado e montado no sistema operacional da EC2;
   Pode ser usado para armazenar logs, bancos de dados, arquivos de aplicação
 - Etapa 4: Operações de Leitura/Escrita:
+  
   EC2 realiza operações de leitura e escrita no volume EBS;
   Os dados são persistentes mesmo se a EC2 for desligada
 - Etapa 5: Snapshot (Backup):
+  
   Você pode criar snapshots do volume EBS;
   Snapshots são armazenados no Amazon S3 (internamente)
 - Etapa 6: Monitoramento:
+  
   O uso do volume pode ser monitorado via Amazon CloudWatch
   Métricas como IOPS, throughput e uso de disco
