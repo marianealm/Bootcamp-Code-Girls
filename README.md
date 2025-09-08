@@ -23,5 +23,5 @@
   Snapshots são armazenados no Amazon S3 (internamente)
 - Etapa 6: Monitoramento:
   
-  O uso do volume pode ser monitorado via Amazon CloudWatch
+  O uso do volume pode ser monitorado via Amazon CloudWatch,
   Métricas como IOPS, throughput e uso de disco
